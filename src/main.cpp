@@ -7,8 +7,8 @@
 
 int main(int argc, char *argv[])
 {
-
-    XLogger::getInstance()->Init("debug","debug");
+    XLogger::getInstance()->Init("debug","debug","test.log");
+//    XLogger::getInstance()->Init("debug","debug");
 
     XLOG_INFO("hello");
 
