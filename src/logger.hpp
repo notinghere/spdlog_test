@@ -55,7 +55,6 @@ public:
     void Init(std::string console_level, std::string file_level, std::string logger_name = "") {
 
         try {
-
             if (logger_name.empty()) {
                 logger_name = "logs/gateway_"+std::to_string(NowDateToInt())+"_"+std::to_string(NowTimeToInt()) + ".log";
             }
